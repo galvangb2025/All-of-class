@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+
+.green{
+    background-color: greenyellow;
+}
+.yellow{
+    background-color: yellow;
+}
+.negrita{
+    font-weight: bold;
+    font-size: larger;
+}
