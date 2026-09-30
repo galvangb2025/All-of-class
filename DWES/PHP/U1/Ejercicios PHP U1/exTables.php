@@ -6,7 +6,24 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../../styles/exTablesStyle.css">
 </head>
-<body>
-    
+<body border="1">
+    <table>
+        <thead>
+            <tr>
+                <td>x</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>0</td>
+            </tr>
+        </thead>
+    </table>
+
 </body>
 </html>
