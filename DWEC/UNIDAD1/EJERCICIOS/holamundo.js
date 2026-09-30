@@ -60,3 +60,45 @@ switch (codigo) {
         console.log("Código erroneo")
         break;
 }
+
+//Mostrar los 8 primeros nuimeros multiplos de  de 7 que hay del 1 al 100
+let contador = 0;
+for (let index = 0; index < 100; index++) {
+    if (index % 7 === 0) {
+        console.log(index);
+    }
+    if (contador === 8) {
+        break;
+    }
+}
+//Continue, salta interraciones
+for(i = 1; i < 10; i++){
+    if (i % 3 == 0) continue; 
+    console.log(i);
+
+} 
+    
+//Etiquetando bucles
+outerloop:
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+        if (i === 1 && j === 1) {
+            break outerloop; //Sale del bucle externo
+        }
+        console.log(`i: ${i}, j: ${j}`)
+    }
+    console.log("Fin del etiquetado de bucles")
+    
+}
+
+//bucle etiquetado
+saldeaqui:
+for(i = 1; i <=3; i++){
+    for (let j = 0; j <= 5; j++) {
+        if(i ==2 && j == 4){
+            console.log("Producto encontrado")
+            break saldeaqui;
+        }
+        console.log(`Zona: ${i}, Estanteria: ${j}`);
+    }
+}
