@@ -102,3 +102,11 @@ for(i = 1; i <=3; i++){
         console.log(`Zona: ${i}, Estanteria: ${j}`);
     }
 }
+
+
+//Arrays
+
+const multiarray = [
+    [1,2,3,4],
+    [5,6,7,8,9]
+]
