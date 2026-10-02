@@ -1,0 +1,49 @@
+body{
+ background: linear-gradient(135deg, #667eea, 0%, #762ba2 100%);   
+}
+.caja1{
+    float: left;
+    height: 300px;
+    width: 33%;
+    background: linear-gradient(135deg, #667eea, 0%, #764ba2, 100%);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 0 rgba(0, 0, 0, 0.37);
+}
+.caja2{
+    width: 66%;
+    height: 300px;
+    background-color: blue;
+    float: left;
+    margin: 5px;
+}
+.caja3{
+    width: 33%;
+    height: 600px;
+    background-color: chartreuse;
+    float: left;    
+    margin: 5px;
+}
+.caja4{
+    width: 33%;
+    height: 600px;
+    background-color: violet;
+    float: left;
+    margin: 5px;
+}
+.caja5{
+    float: left;
+    height: 300px;
+    width: 33%;
+    background-color: rgb(0, 255, 13);
+    margin: 5px;
+}
+.caja6{
+    float: left;
+    height: 300px;
+    width: 33%;
+    background-color: rgb(255, 0, 0);
+    margin: 5px;
+}
