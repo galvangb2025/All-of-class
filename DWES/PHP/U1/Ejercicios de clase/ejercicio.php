@@ -56,5 +56,24 @@
     }
     echo "</pre>";
     ?>
+    <p>_____________________</p>
+    <br>
+
+    <?php 
+    $días = ["Lunes","Martes","Miércoles","Juevs","Viernes","Sábado","Domingo"];
+    $ciudades = ["Sevilla", "Madrid", "Tenerife", "Barcelona", "Ourense", "Cádiz"];
+    $numdias = 7;
+    $numciudades = 6;
+    $temp =[];
+
+    for ($i=0; $i < $numdias ; $i++) { 
+        for ($j=0; $j < $numciudades ; $j++) { 
+            $temp[$i][$j] = rand(-10, 45);
+        }
+    }
+
+    
+
+    ?>
 </body>
 </html>
