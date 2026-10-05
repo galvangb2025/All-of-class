@@ -7,6 +7,7 @@
 </head>
 <body>
  <?php
+
     $nombre = ord('S') - ord('A') + 1;
     $apellido = ord('L') - ord('A') + 1;
 
