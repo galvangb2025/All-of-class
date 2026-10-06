@@ -113,3 +113,22 @@ const multiarray = [
 
 
 console.table(multiarray);
+
+
+
+const notas=[7, 3, 5, 9, 4, 8, 2]
+for (let index = 0; index < notas.length; index++) {
+    if (notas >= 5) {
+        console.log(index);
+    }
+}
+
+
+// Foreach en js
+/*
+for (x of notis){
+    if (x>= 5) {
+        console.log(x);
+    }
+}
+*/
