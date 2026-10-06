@@ -1,0 +1,12 @@
+body {
+    color: green;
+    font-size: larger;
+}
+
+p, span {
+    border: 1px solid blue;
+}
+
+a, a:link {
+    color: green;
+}
